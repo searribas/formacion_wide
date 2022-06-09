@@ -1,4 +1,4 @@
-# Título del Proyecto
+# WIDE paso a paso
 
 Repositorio utilizado para subir todos los ejemplos practicos que nos van a ser de ayuda en el uso de WIDE 
 
