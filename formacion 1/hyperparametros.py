@@ -2,7 +2,7 @@ from clearml import Task
 
 
 
-task = Task.init(project_name="formacion2", task_name="hyperparametros")
+task = Task.init(project_name="formacion2", task_name="hyperparametros_Sergio")
 
 args = {
      'dataset_task_id': '',
