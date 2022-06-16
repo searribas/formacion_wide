@@ -26,9 +26,12 @@ Task.current_task().get_registered_artifacts()['train'].sample(frac=0.5, replace
 
 
 task.upload_artifact('Pandas', artifact_object=df)
+
 task.upload_artifact('local file', artifact_object=os.path.join('data_samples', 'dancing.jpg'))
+
 task.upload_artifact('dictionary', df.to_dict())
-task.upload_artifact('local file', artifact_object='boro.csv')
+
+task.upload_artifact('boro', artifact_object='boro.csv')
 
 
 
