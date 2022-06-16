@@ -7,7 +7,7 @@ from PIL import Image
 from clearml import Task
 
 
-
+#CREAR E INICIAR TAREA
 task = Task.init(project_name='Acciona-MADRID', task_name='Artifacts example')
 
 df = pd.DataFrame(
