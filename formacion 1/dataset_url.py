@@ -1,5 +1,5 @@
 # Descargue el conjunto de datos CIFAR y cree un conjunto de datos con la clase Dataset de wide
-
+from clearml import StorageManager, Dataset
 manager = StorageManager()
 
 dataset_path = manager.get_local_copy(
@@ -7,7 +7,7 @@ dataset_path = manager.get_local_copy(
 )
 
 dataset = Dataset.create(
-    dataset_name="cifar_dataset", dataset_project="Acciona-Formacion"
+    dataset_name="datasetremoto_pilar", dataset_project="formacion2"
 )
 
 # Prepare y limpie los datos aquí antes de agregarlos al conjunto de datos

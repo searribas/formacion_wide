@@ -1,6 +1,6 @@
 from clearml import Task, Dataset
 
-task = Task.init(project_name="myproject", task_name="mytask")
+task = Task.init(project_name="Acciona_MADRID", task_name="Tarea+Dataset")
 
 dataset = Dataset.create(
     dataset_name="boro1_csv",

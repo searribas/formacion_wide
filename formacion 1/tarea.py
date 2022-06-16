@@ -1,4 +1,4 @@
-from clearml import Task, Dataset
+from clearml import Task
 
-task = Task.init(project_name="myproject", task_name="mytask")
+task = Task.init(project_name="formacion2", task_name="pilar")
 
